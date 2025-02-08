@@ -1,0 +1,52 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "REDACTED",
+          "appId": "REDACTED",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "REDACTED",
+          "appId": "REDACTED",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "REDACTED",
+          "configurations": {
+            "android": "REDACTED",
+            "ios": "REDACTED",
+            "macos": "REDACTED",
+            "web": "REDACTED",
+            "windows": "REDACTED"
+          }
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "REDACTED",
+          "appId": "REDACTED",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      }
+    }
+  },
+  "hosting": {
+    "source": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "asia-east1"
+    }
+  }
+}
