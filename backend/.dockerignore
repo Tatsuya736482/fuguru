@@ -1,0 +1,24 @@
+# git関連
+.git
+.gitignore
+
+# 開発でしか使用しない
+tests
+.pre-commit-config.yaml
+.vscode
+
+# コンテナに含める必要はない
+Dockerfile
+.dockerignore
+
+# ドキュメント
+README.md
+
+# 仮想環境
+.venv
+
+# キャッシュファイル
+**/*/__pycache__
+
+# このプロジェクトでは使用していない
+**/*/__init__.py
